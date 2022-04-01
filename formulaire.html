@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styleform.css">
+    <title>Formulaire</title>
+</head>
+<body class="violet">
+    <h2>Formulaire DWWM</h2>
+    <form action="traitement.php" class="t" method="post">
+            <label class="cool1">Nom</label><br>
+            <input class="cool2" type="text" placeholder="Entrez votre nom"><br>
+            <label class="cool3">Email</label><br>
+            <input class="cool4" type="Email" placeholder="Entrez votre mail"><br>
+
+            <label class="cool5" >Indiquez votre satisfaction au cours de 1 a 10</label><br>
+            <input class="cool6" type="number" placeholder="numero de 1 à 10"> <br>
+
+            <label class="cool7">Qui est votre Coach?</label><br>
+            <select class="cool8" >
+                <option value="Birante">Birante</option>
+                <option value="Mamadou">Mamadou</option>
+                <option value="Malick">Malick</option>
+            </select> <br>
+
+            <label class="cool9" >A quel moment avez-vous cours?</label><br>
+            <div class="cut8">
+                <input type="radio" >Matin<br>
+                <input type="radio" >Apres-midi<br>
+                <input type="radio">Soir<br>
+            </div>
+                
+            
+            <label class="cut1" >Quelles Outils avez-vous rencontrés jusque là?</label><br>
+            <label class="cut2" >(Selectionnez tout ce qui s'applique)</label>
+            <div class="cool">
+                <input type="checkbox">HTML <br>
+                <input type="checkbox">CSS <br>
+                <input type="checkbox">Javascript <br>
+                <input type="checkbox">Editeur de texte <br>
+                <input type="checkbox" >Ligne de commande <br>
+               
+            </div>
+
+            <label class="cut" >Decrivez votre experience jusque là</label> <br>
+             <textarea class="cut4" rows="3" cols="27" placeholder="Decrivez votre experience ici"></textarea> <br>
+
+            <input class="cut3" type="submit" id="f" name="Envoyer" value="Envoyer" >
+            
+        </form>
+    </body>
+</html>
